@@ -1,0 +1,82 @@
+﻿<div ng-controller="RepoDetailCtrl">
+    <div id="page-wrapper">
+        
+        <!-- page header -->
+        <div class="row">
+            <div class="col-lg-12">
+
+                <h1 class="page-header">Repository details</h1>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Repository information
+                    </div>
+
+                    <div class="control-group">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="panel-body">
+                                    <div class="form-group">
+                                        <img width="150" height="150" src="~/Content/Image/foto_felipe.jpg" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Repository Name</label>
+                                        <p class="form-control-static">{{repoDetail.name}}</p>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Description</label>
+                                        <p class="form-control-static">{{repoDetail.description}}</p>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Language</label>
+                                        <p class="form-control-static">{{repoDetail.language}}</p>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Owner</label>
+                                        <p class="form-control-static">{{repoDetail.owner}}</p>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Last Update</label>
+                                        <p class="form-control-static">{{repoDetail.lastUpdate}}</p>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input type="checkbox" checked="{{repoDetail.isFavoriteRepo}}" />Mark as favorite
+                                    </div>
+                                    </div>
+                           </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Contributors
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div id="collapseOne" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <img class="img-gitlogo-ss" src="~/Content/Image/foto_felipe.jpg" />
+                                        <p class="form-control-static">{{repoDetail.contributors}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="btn btn-primary" ng-click="ok()">Save</button>
+            <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+        </div>
+    </div>
+</div>
