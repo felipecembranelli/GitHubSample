@@ -8,7 +8,12 @@
 
         $scope.repos = [];
 
-        $scope.repos = repoService.getAllRepos();
+        repoService
+              .getAllRepos()
+              .success(function (data, status, headers, config) {
+                  $scope.repos = data;
+              });
+
 
         $scope.viewRepoDetail = function (repoId) {
             console.log(repoId);

@@ -74,3 +74,15 @@ C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\bin\Sys
 C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\obj\Debug\GitHubSample.Web.SPA.csprojResolveAssemblyReference.cache
 C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\obj\Debug\GitHubSample.Web.SPA.dll
 C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\obj\Debug\GitHubSample.Web.SPA.pdb
+C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\bin\Autofac.dll
+C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\bin\Autofac.Integration.Mvc.dll
+C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\bin\GitHubSample.Data.dll
+C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\bin\GitHubSample.Model.dll
+C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\bin\GitHubSample.Data.pdb
+C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\bin\GitHubSample.Model.pdb
+C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\bin\Autofac.xml
+C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\bin\Autofac.Integration.Mvc.xml
+C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\bin\Autofac.Integration.WebApi.dll
+C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\bin\Autofac.Integration.WebApi.xml
+C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\bin\GitHubSample.Services.dll
+C:\Users\feliperc\OneDrive\Public\Way2\GitHubSample\GitHubSample.Web.SPA\bin\GitHubSample.Services.pdb

@@ -12,7 +12,13 @@
             $scope.navigationManager.goToListPage('/');
         };
 
-        $scope.repoDetail = repoService.getRepoById($routeParams.id);
+        //$scope.repoDetail = repoService.getRepoById($routeParams.id);
+
+        repoService
+              .getRepoById($routeParams.id)
+              .success(function (data, status, headers, config) {
+                  $scope.repos = data;
+              });
 
         console.log($scope.repoDetail);
     }]);
