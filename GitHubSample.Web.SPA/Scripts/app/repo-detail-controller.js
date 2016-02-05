@@ -17,7 +17,7 @@
         repoService
               .getRepoById($routeParams.id)
               .success(function (data, status, headers, config) {
-                  $scope.repos = data;
+                  $scope.repoDetail = data;
               });
 
         console.log($scope.repoDetail);
